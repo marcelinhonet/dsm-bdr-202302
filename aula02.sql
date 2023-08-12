@@ -9,3 +9,4 @@ create table cliente (NOME_CLIENTE varchar(40), CIDADE_CLIENTE varchar(40), ENDE
 create table conta (NUMERO_CONTA integer, NOME_AGENCIA varchar(40), SALDO real);
 create table emprestimo (NUMERO_EMPRESTIMO integer, NOME_AGENCIA varchar(40), VALOR real);
 create table agencia (NOME_AGENCIA varchar(40), CIDADE_AGENCIA varchar(40), DEPOSITOS integer);
+drop table tabela01, tabela02, tabela03, tabela04, tabela05;
