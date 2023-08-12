@@ -5,3 +5,7 @@ create table tabela02 (codigo integer, nome text, telefone integer, endereco var
 create table tabela03 (codigo integer, ra integer);
 create table tabela04 (codigo integer, email varchar);
 create table tabela05 (codigo integer, idade integer);
+create table cliente (NOME_CLIENTE varchar(40), CIDADE_CLIENTE varchar(40), ENDERECO_CLIENTE varchar(60));
+create table conta (NUMERO_CONTA integer, NOME_AGENCIA varchar(40), SALDO real);
+create table emprestimo (NUMERO_EMPRESTIMO integer, NOME_AGENCIA varchar(40), VALOR real);
+create table agencia (NOME_AGENCIA varchar(40), CIDADE_AGENCIA varchar(40), DEPOSITOS integer);
