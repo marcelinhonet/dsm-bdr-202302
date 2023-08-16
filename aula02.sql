@@ -19,3 +19,6 @@ alter table tblcliente ADD COLUMN IDADE integer;
 alter table tblcliente ADD COLUMN CPF integer;
 alter table tblagencia DROP COLUMN CIDADE_AGENCIA;
 alter table tblagencia ADD COLUMN ENDERECO_AGENCIA varchar (60);
+
+/*15082023*/
+create schema MARCELO;
