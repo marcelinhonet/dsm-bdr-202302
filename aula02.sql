@@ -1,3 +1,4 @@
+drop database IF EXISTS bd_sistema_bancario;
 create database bd_sistema_bancario;
 \c bd_sistema_bancario;
 create table tabela01 (codigo integer);
