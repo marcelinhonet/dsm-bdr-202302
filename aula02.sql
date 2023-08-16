@@ -11,7 +11,7 @@ create table conta (NUMERO_CONTA integer, NOME_AGENCIA varchar(40), SALDO real);
 create table emprestimo (NUMERO_EMPRESTIMO integer, NOME_AGENCIA varchar(40), VALOR real);
 create table agencia (NOME_AGENCIA varchar(40), CIDADE_AGENCIA varchar(40), DEPOSITOS integer);
 drop table tabela01, tabela02, tabela03, tabela04, tabela05;
-alter table cliente RENAME TO tblcliente;
+alter table cliente rename to tblcliente;
 alter table conta RENAME TO tblconta;
 alter table emprestimo RENAME TO tblemprestimo;
 alter table agencia RENAME TO tblagencia;
